@@ -1,13 +1,10 @@
 {
   "name": "frases-motivacionais",
   "version": "1.0.0",
-  "description": "Projeto desenvolvido em Node.js que exibe uma frase motivacional aleatória.",
+  "description": "Projeto simples para demonstrar CI/CD com GitHub Actions",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "test": "echo \"Teste executado com sucesso\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "start": "node index.js",
+    "test": "echo \"Teste executado com sucesso\""
+  }
 }
