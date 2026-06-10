@@ -1,32 +1,24 @@
-# Gerador de Frases Motivacionais
+# Projeto CI/CD com GitHub Actions e Render
 
-## Descrição
-
-Projeto desenvolvido em Node.js que exibe uma frase motivacional aleatória.
+Este projeto foi desenvolvido para demonstrar a implementação de um pipeline simples de CI/CD.
 
 ## Tecnologias utilizadas
 
-- Node.js
-- GitHub Actions
+* Node.js
+* GitHub Actions
+* Render
 
-## Pipeline de CI/CD
+## Integração Contínua (CI)
 
-Foi configurado um pipeline simples utilizando GitHub Actions. Sempre que ocorre um push ou pull request na branch `main`, o GitHub executa automaticamente:
+Foi configurado um pipeline utilizando GitHub Actions que é executado automaticamente a cada push ou pull request na branch principal. O pipeline realiza:
 
-1. Checkout do código.
-2. Configuração do Node.js.
-3. Instalação das dependências.
-4. Execução dos testes.
-5. Execução da aplicação.
+* Checkout do código;
+* Instalação das dependências;
+* Execução dos testes;
+* Execução da aplicação.
 
-## Estrutura do projeto
+## Entrega Contínua (CD)
 
-```text
-frases-motivacionais/
-│
-├── index.js
-├── package.json
-└── .github/
-    └── workflows/
-        └── ci.yml
-```
+Foi utilizado o Render para realizar o deploy automático da aplicação. Sempre que uma alteração é enviada para o GitHub, uma nova implantação é realizada automaticamente.
+
+Dessa forma, o projeto possui um pipeline completo de CI/CD.
